@@ -12,9 +12,9 @@ namespace EjercicioBasico4
         {
             Int16 primer_numero = 0;
             Int16 segundo_numero = 0;
-            Console.Write("Introduzca el primer númnero: ");
+            Console.Write("Introduzca el primer número: ");
             primer_numero = Convert.ToInt16(Console.ReadLine());
-            Console.Write("Introduzca el segundo númnero: ");
+            Console.Write("Introduzca el segundo número: ");
             segundo_numero = Convert.ToInt16(Console.ReadLine());
 
             if ((primer_numero % 2 == 0) && (segundo_numero % 2 == 0))
@@ -25,6 +25,7 @@ namespace EjercicioBasico4
             {
                 Console.WriteLine("No son ambos números pares");
             }
+            Console.ReadLine();           
         }
     }
 }
